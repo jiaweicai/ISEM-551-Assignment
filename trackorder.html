@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <html>
-
-
-
 <head>
   <meta charset="utf-8">
+  <link href="css/trackstyles.css" rel="stylesheet">
   <title>Track Order</title>
+  <div align="left">
+  <a href="index3.html"><img width='500' height='300' src='img/logo.png' /></a>
+  </div>
 </head>
-
-
-<body>
-<h1> This is under construction, will include a box where customers can enter their tracking codes to track their packages. </h1>
-
-
-</body>
-
-
-
+<div class="packages24-tracking-page-wrapper">
+		<div class="section-header text-center packages24-tracking-page-header">
+			<h1>Track Your Orders Here</h1>
+		</div>
+		<div class="packages24-tracking-forms-container one-line">
+	<form action="error.html" method="GET" class="packages24-tracking-form packages24-by-order">
+		<input type="text" name="order" placeholder="Order number" value="" class="stop-mega-menu-reinit">
+		<input type="text" name="email" placeholder="E-mail or Phone" value="" class="stop-mega-menu-reinit">
+		<button class="packages24-tracking-form-button" type="submit">Track</button>
+	</form>
+		<div class="packages24-or-container">
+					<div class="packages24-or">or</div>
+				</div>
+	<form action="error.html" method="GET" class="packages24-tracking-form packages24-by-number">
+		<input type="text" name="number" placeholder="Tracking number" value="" class="stop-mega-menu-reinit">
+		<button class="packages24-tracking-form-button" type="submit">Track</button>
+	</form>
+    </div>
+  </div>
 </html>
