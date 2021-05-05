@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "+2I4Evh3NQHzhNBIOkeRlHMMXMSaqh8LyTkEwBRnTKqb1ClTAfKgU9Vtnle7Gwpki4OQSE9ai1wGmAPkdw72lA==",
+  "success": true,
+  "projectFilePath": "/Users/jiaweicai/Projects/Assignments/Assignments/Assignments.csproj",
+  "expectedPackageFiles": [
+    "/Users/jiaweicai/.nuget/packages/bootstrap/4.6.0/bootstrap.4.6.0.nupkg.sha512",
+    "/Users/jiaweicai/.nuget/packages/grid.mvc/3.0.0/grid.mvc.3.0.0.nupkg.sha512",
+    "/Users/jiaweicai/.nuget/packages/jquery/3.0.0/jquery.3.0.0.nupkg.sha512",
+    "/Users/jiaweicai/.nuget/packages/popper.js/1.16.1/popper.js.1.16.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Grid.Mvc 3.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Grid.Mvc",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}
